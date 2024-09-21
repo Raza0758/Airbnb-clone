@@ -1,10 +1,8 @@
 const leftArrow = document.getElementById("left-arrow");
 const rightArrow = document.getElementById("right-arrow");
 const iconContainer = document.querySelector(".icon-container");
-// const iconBox = document.querySelector(".icon-box");
 
 const scrollAmount = 800;
-// let currentIconIndex = 0;
 
 leftArrow.style.visibility = "hidden";
 
