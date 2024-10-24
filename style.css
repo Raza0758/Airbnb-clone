@@ -53,9 +53,12 @@
   border-radius: 50px;
   position: relative;
   left: 15%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 .search-area1 p {
   color: rgb(148, 145, 145);
+  position: relative;
+  right: 11px;
 }
 .search-area5 {
   display: flex;
@@ -72,13 +75,13 @@
 
 /* Icon section */
 .icon-container {
-  height: 100vh;
+  height: 10vh;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
   gap: 12px;
   margin: 60px 33px;
-  overflow-x: auto;
+  overflow-x: hidden;
   overflow-y: hidden;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
@@ -140,4 +143,355 @@
 }
 .right-arrow {
   float: right;
+}
+
+/* Images sections*/
+/*  */
+/*  */
+/*  */
+
+/* Image Section 1 */
+
+.image-slider-section-01 {
+  position: relative;
+  width: 22%;
+  height: 300px;
+  margin: 40px auto;
+  overflow: hidden;
+  border-radius: 13px;
+  right: 36.5%;
+  bottom: 26px;
+}
+
+.image-slider-01 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.slides-01 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.5s ease;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.active-01 {
+  display: block;
+  opacity: 1;
+}
+.slide:not(.active-01) {
+  opacity: 0;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.slide-text-01 {
+  position: relative;
+  color: black;
+  bottom: 57px;
+  display: block;
+  left: 44px;
+}
+.slide-text-01 h5 {
+  font-size: medium;
+}
+.slide-text-01 p {
+  padding: 2px;
+  color: gray;
+}
+.slide-text-01 span {
+  font-size: larger;
+  color: gray;
+  padding: 2px;
+}
+
+.navigation-01 {
+  position: absolute;
+  bottom: 135px;
+  display: flex;
+}
+
+.prev-btn-01,
+.next-btn-01 {
+  font-size: 14px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  padding: 7px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+}
+.prev-btn-01 {
+  position: relative;
+  left: 0.8rem;
+}
+.next-btn-01 {
+  position: relative;
+  left: 15rem;
+}
+
+/* Image Section 2 */
+
+.image-slider-section-02 {
+  position: relative;
+  width: 22%;
+  height: 300px;
+  margin: 40px auto;
+  overflow: hidden;
+  border-radius: 13px;
+  right: 12.5%;
+  bottom: 29.3rem;
+}
+
+.image-slider-02 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.slides-02 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.slide-02 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.active-02 {
+  display: block;
+}
+
+.slide-02 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.navigation-02 {
+  position: absolute;
+  bottom: 135px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.prev-btn-02,
+.next-btn-02 {
+  font-size: 12px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  padding: 7px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.slide-text-02 {
+  position: relative;
+  color: black;
+  bottom: 501px;
+  display: block;
+  left: 368px;
+}
+.slide-text-02 h5 {
+  font-size: medium;
+}
+.slide-text-02 p {
+  padding: 2px;
+  color: gray;
+}
+.slide-text-02 span {
+  font-size: larger;
+  color: black;
+  padding: 2px;
+}
+
+/* Image Section 3 */
+
+.image-slider-section-03 {
+  position: relative;
+  width: 22%;
+  height: 300px;
+  margin: 40px auto;
+  overflow: hidden;
+  border-radius: 13px;
+  left: 11.5%;
+  bottom: 56.9rem;
+}
+
+.image-slider-03 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.slides-03 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.slide-03 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.active-03 {
+  display: block;
+}
+
+.slide-03 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.navigation-03 {
+  position: absolute;
+  bottom: 135px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.prev-btn-03,
+.next-btn-03 {
+  font-size: 12px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  padding: 7px;
+  border-radius: 50%;
+}
+
+.slide-text-03 {
+  position: relative;
+  color: black;
+  bottom: 942px;
+  display: block;
+  left: 694px;
+}
+.slide-text-03 h5 {
+  font-size: medium;
+}
+.slide-text-03 p {
+  padding: 2px;
+  color: gray;
+}
+.slide-text-03 span {
+  font-size: larger;
+  color: gray;
+  padding: 2px;
+}
+
+/* Image Section 4 */
+.image-slider-section-04 {
+  position: relative;
+  width: 22%;
+  height: 300px;
+  margin: 40px auto;
+  overflow: hidden;
+  border-radius: 13px;
+  left: 35.5%;
+  bottom: 84.5rem;
+}
+
+.image-slider-04 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.slides-04 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.slide-04 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.active-04 {
+  display: block;
+}
+
+.slide-04 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.navigation-04 {
+  position: absolute;
+  bottom: 135px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20px;
+}
+
+.prev-btn-04,
+.next-btn-04 {
+  font-size: 12px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  padding: 7px;
+  border-radius: 50%;
+}
+
+.slide-text-04 {
+  position: relative;
+  color: black;
+  bottom: 1384px;
+  display: block;
+  left: 1015px;
+}
+.slide-text-04 h5 {
+  font-size: medium;
+}
+.slide-text-04 p {
+  padding: 2px;
+  color: gray;
+}
+.slide-text-04 span {
+  font-size: larger;
+  color: gray;
+  padding: 2px;
 }
