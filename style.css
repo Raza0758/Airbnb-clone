@@ -15,27 +15,27 @@ html {
 .container {
   display: flex;
   align-items: center;
-  padding: 16px;
+  padding: 5px 14px;
 }
 
 .box1 img {
-  width: 145px;
-  padding: 11px 16px;
+  width: 90px;
+  padding: 2px 11px;
 }
 
 .box2 ul {
   display: flex;
   list-style: none;
-  padding: 0 88px 0 380px;
+  padding: 0 4vw 1vw 34vw;
 }
 
 .box2 li {
-  padding: 0 22px;
-  font-size: 1.1rem;
-  transition: background-color ease;
+  padding: 0 1vw;
+  font-size: 0.7rem;
   height: 42px;
   display: flex;
   align-items: center;
+  transition: background-color ease;
 }
 
 .box2 li:hover {
@@ -46,16 +46,20 @@ html {
 .box3 {
   display: flex;
   align-items: center;
-  padding: 0 24px 0 140px;
+  padding: 0 7px 0 100px;
   height: 40px;
 }
 
 .box3 h4 {
   margin: 0;
   padding: 0 10px;
-  line-height: 40px;
+  font-size: 11px;
 }
-
+.box3 a {
+  color: black;
+  padding: 0 6px;
+  font-size: 14px;
+}
 .box3 h4:hover {
   background-color: rgba(211, 211, 211, 0.411);
   border-radius: 22px;
@@ -68,26 +72,26 @@ html {
   transition: background-color ease;
 }
 .box4 a {
-  gap: 22px;
-  padding: 14px;
+  padding: 8px 8px;
+  font-size: 12px;
+  color: black;
 }
 .box4:hover {
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
 }
 
 /* Search area */
-
 .container2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 70%;
+  width: 62%;
   height: 12vh;
   border: 1px solid lightgray;
   border-radius: 50px;
   position: relative;
-  left: 15%;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  left: 18%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
   cursor: pointer;
   overflow: hidden;
 }
@@ -101,21 +105,28 @@ html {
   width: 100%;
   transition: background-color ease;
   padding: 0 10px;
+  font-size: 12px;
 }
 
 #area01 h5 {
   position: relative;
-  right: 50px;
+  right: 36px;
+}
+#area01 p,
+#area02 p,
+#area03 p {
+  color: rgb(150, 147, 147);
 }
 
 #area04 h5 {
   position: relative;
-  right: 78px;
+  right: 55px;
 }
 
 #area04 p {
   position: relative;
-  right: 55px;
+  right: 38px;
+  color: rgb(150, 147, 147);
 }
 
 .area01,
@@ -135,8 +146,8 @@ html {
 .container2 span {
   color: lightgray;
   font-size: 2rem;
-  margin: 0 -4px;
-  padding: 0 5px;
+  margin: 0 -8px;
+  padding: 0 8px;
 }
 
 .search-area5 {
@@ -145,18 +156,21 @@ html {
   justify-content: center;
   width: 33px;
   height: 24px;
-  border-radius: 95px;
-  padding: 25px;
+  border-radius: 50%;
+  padding: 17px;
   background-color: #fc474d;
   position: absolute;
-  right: 19px;
+  right: 5px;
   top: 50%;
   transform: translateY(-50%);
   z-index: 2;
 }
-
+.search-area5 a {
+  font-size: 12px;
+  color: white;
+}
 .divider {
-  top: 1.7rem;
+  top: 1.01rem;
   position: relative;
   border: 1px solid rgba(211, 211, 211, 0.445);
 }
@@ -164,8 +178,8 @@ html {
 /* Icon section */
 .icon-container {
   display: flex;
-  gap: 25px;
-  margin: 60px 33px;
+  gap: 23px;
+  margin: 35px 33px;
   overflow-x: hidden;
   overflow-y: hidden;
   scroll-behavior: smooth;
@@ -177,29 +191,28 @@ html {
   flex-direction: column;
   align-items: center;
   width: 100px;
-  margin-left: 10px;
+  margin-left: 4px;
   transition: transform 0.5s ease;
 }
 
 .icon-box img {
-  height: 23px;
-  width: 28px;
-  margin-bottom: 10px;
+  height: 17px;
+  width: 20px;
+  margin-bottom: 5px;
   object-fit: cover;
 }
 
 .icon-box p {
-  font-size: 14px;
-  font-weight: bold;
-  color: rgba(128, 128, 128, 0.726);
+  font-size: 9px;
+  color: rgb(128, 128, 128);
   white-space: nowrap;
 }
 
 .nav-arrows {
   position: absolute;
-  top: 43%;
-  right: 4px;
-  padding: 0 25px;
+  top: 40%;
+  right: 1px;
+  padding: 0 20px;
   transform: translateY(-50%);
   width: 100%;
   overflow: hidden;
@@ -211,12 +224,12 @@ html {
   align-items: center;
   justify-content: center;
   background: white;
-  border: 1px solid lightgray;
+  border: 1px solid rgba(124, 120, 120, 0.795);
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
+  width: 23px;
+  height: 23px;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 9px;
   padding: 7px;
 }
 
@@ -238,7 +251,7 @@ html {
 .image-slider-section-01 {
   position: relative;
   width: 22%;
-  height: 300px;
+  height: 200px;
   margin: 40px auto;
   overflow: hidden;
   border-radius: 13px;
@@ -268,17 +281,17 @@ html {
 
 .navigation-01 {
   position: absolute;
-  bottom: 135px;
+  bottom: 85px;
   display: flex;
 }
 
 .prev-btn-01,
 .next-btn-01 {
-  font-size: 14px;
+  font-size: 10px;
   cursor: pointer;
   background-color: white;
   color: black;
-  padding: 7px;
+  padding: 4px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -293,7 +306,7 @@ html {
 
 .next-btn-01 {
   position: relative;
-  left: 15rem;
+  left: 9.8rem;
 }
 
 .slide-text-01 {
@@ -301,20 +314,22 @@ html {
   color: black;
   bottom: 57px;
   display: block;
-  left: 38px;
+  left: 30px;
 }
 
 .slide-text-01 h5 {
-  font-size: medium;
+  font-size: 10px;
+  font-weight: 100;
 }
 
 .slide-text-01 p {
   padding: 2px;
   color: gray;
+  font-size: 12px;
 }
 
 .slide-text-01 span {
-  font-size: larger;
+  font-size: 12px;
   color: gray;
   padding: 2px;
 }
@@ -324,12 +339,12 @@ html {
 .image-slider-section-02 {
   position: relative;
   width: 22%;
-  height: 300px;
+  height: 200px;
   margin: 40px auto;
   overflow: hidden;
   border-radius: 13px;
   right: 12.5%;
-  bottom: 29.3rem;
+  bottom: 21.9rem;
 }
 
 .slides-02 {
@@ -354,7 +369,7 @@ html {
 
 .navigation-02 {
   position: absolute;
-  bottom: 135px;
+  bottom: 85px;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -363,11 +378,11 @@ html {
 
 .prev-btn-02,
 .next-btn-02 {
-  font-size: 12px;
+  font-size: 10px;
   cursor: pointer;
   background-color: white;
   color: black;
-  padding: 7px;
+  padding: 4px;
   border-radius: 50%;
   display: flex;
   justify-content: center;
@@ -377,22 +392,24 @@ html {
 .slide-text-02 {
   position: relative;
   color: black;
-  bottom: 501px;
-  display: block;
-  left: 361px;
+  bottom: 383px;
+  display: red;
+  left: 245px;
 }
 
 .slide-text-02 h5 {
-  font-size: medium;
+  font-size: 10px;
+  font-weight: 100;
 }
 
 .slide-text-02 p {
   padding: 2px;
   color: gray;
+  font-size: 12px;
 }
 
 .slide-text-02 span {
-  font-size: larger;
+  font-size: 12px;
   color: black;
   padding: 2px;
 }
@@ -402,12 +419,12 @@ html {
 .image-slider-section-03 {
   position: relative;
   width: 22%;
-  height: 300px;
+  height: 200px;
   margin: 40px auto;
   overflow: hidden;
   border-radius: 13px;
   left: 11.5%;
-  bottom: 56.9rem;
+  bottom: 42rem;
 }
 
 .slides-03 {
@@ -432,7 +449,7 @@ html {
 
 .navigation-03 {
   position: absolute;
-  bottom: 135px;
+  bottom: 85px;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -441,33 +458,35 @@ html {
 
 .prev-btn-03,
 .next-btn-03 {
-  font-size: 12px;
+  font-size: 10px;
   cursor: pointer;
   background-color: white;
   color: black;
-  padding: 7px;
+  padding: 4px;
   border-radius: 50%;
 }
 
 .slide-text-03 {
   position: relative;
   color: black;
-  bottom: 942px;
+  bottom: 704px;
   display: block;
-  left: 686px;
+  left: 459px;
 }
 
 .slide-text-03 h5 {
-  font-size: medium;
+  font-size: 10px;
+  font-weight: 100;
 }
 
 .slide-text-03 p {
   padding: 2px;
   color: gray;
+  font-size: 12px;
 }
 
 .slide-text-03 span {
-  font-size: larger;
+  font-size: 12px;
   color: gray;
   padding: 2px;
 }
@@ -476,12 +495,12 @@ html {
 .image-slider-section-04 {
   position: relative;
   width: 22%;
-  height: 300px;
+  height: 200px;
   margin: 40px auto;
   overflow: hidden;
   border-radius: 13px;
   left: 35.5%;
-  bottom: 84.5rem;
+  bottom: 62.2rem;
 }
 
 .slides-04 {
@@ -506,7 +525,7 @@ html {
 
 .navigation-04 {
   position: absolute;
-  bottom: 135px;
+  bottom: 85px;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -515,33 +534,35 @@ html {
 
 .prev-btn-04,
 .next-btn-04 {
-  font-size: 12px;
+  font-size: 10px;
   cursor: pointer;
   background-color: white;
   color: black;
-  padding: 7px;
+  padding: 4px;
   border-radius: 50%;
 }
 
 .slide-text-04 {
   position: relative;
   color: black;
-  bottom: 1384px;
+  bottom: 1027px;
   display: block;
-  left: 1008px;
+  left: 675px;
 }
 
 .slide-text-04 h5 {
-  font-size: medium;
+  font-size: 10px;
+  font-weight: 100;
 }
 
 .slide-text-04 p {
   padding: 2px;
   color: gray;
+  font-size: 12px;
 }
 
 .slide-text-04 span {
-  font-size: larger;
+  font-size: 12px;
   color: gray;
   padding: 2px;
 }
@@ -550,8 +571,9 @@ html {
 
 .experience {
   position: relative;
-  bottom: 83.5rem;
-  left: 39px;
+  bottom: 62.5rem;
+  left: 26px;
+  font-size: 12px;
 }
 
 /* Image Section 5 */
@@ -559,12 +581,12 @@ html {
 .image-slider-section-05 {
   position: relative;
   width: 22%;
-  height: 300px;
+  height: 200px;
   margin: 40px auto;
   overflow: hidden;
   border-radius: 13px;
   right: 36.5%;
-  bottom: 84.5rem;
+  bottom: 63.8rem;
 }
 
 .image-slider-05 {
@@ -590,17 +612,17 @@ html {
 
 .navigation-05 {
   position: absolute;
-  bottom: 135px;
+  bottom: 85px;
   display: flex;
 }
 
 .prev-btn-05,
 .next-btn-05 {
-  font-size: 14px;
+  font-size: 10px;
   cursor: pointer;
   background-color: white;
   color: black;
-  padding: 7px;
+  padding: 4px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -615,28 +637,30 @@ html {
 
 .next-btn-05 {
   position: relative;
-  left: 15rem;
+  left: 9.7rem;
 }
 
 .slide-text-05 {
   position: relative;
   color: black;
-  bottom: 1377px;
+  bottom: 1055px;
   display: block;
-  left: 39px;
+  left: 28px;
 }
 
 .slide-text-05 h5 {
-  font-size: medium;
+  font-size: 10px;
+  font-weight: 100;
 }
 
 .slide-text-05 p {
   padding: 2px;
   color: rgb(94, 91, 91);
+  font-size: 10px;
 }
 
 .slide-text-05 span {
-  font-size: larger;
+  font-size: 12px;
   color: black;
   padding: 2px;
 }
@@ -646,12 +670,12 @@ html {
 .image-slider-section-06 {
   position: relative;
   width: 22%;
-  height: 300px;
+  height: 200px;
   margin: 40px auto;
   overflow: hidden;
   border-radius: 13px;
   right: 12.5%;
-  bottom: 112.1rem;
+  bottom: 83.7rem;
 }
 
 .slide-06 {
@@ -673,17 +697,17 @@ html {
 
 .navigation-06 {
   position: absolute;
-  bottom: 135px;
+  bottom: 85px;
   display: flex;
 }
 
 .prev-btn-06,
 .next-btn-06 {
-  font-size: 14px;
+  font-size: 10px;
   cursor: pointer;
   background-color: white;
   color: black;
-  padding: 7px;
+  padding: 4px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -698,28 +722,30 @@ html {
 
 .next-btn-06 {
   position: relative;
-  left: 15rem;
+  left: 9.5rem;
 }
 
 .slide-text-06 {
   position: relative;
   color: black;
-  bottom: 1819px;
+  bottom: 1373px;
   display: block;
-  left: 363px;
+  left: 240px;
 }
 
 .slide-text-06 h5 {
-  font-size: medium;
+  font-size: 15px;
+  font-weight: 100;
 }
 
 .slide-text-06 p {
   padding: 2px;
   color: rgb(109, 104, 104);
+  font-size: 12px;
 }
 
 .slide-text-06 span {
-  font-size: larger;
+  font-size: 12px;
   color: black;
   padding: 2px;
 }
@@ -729,12 +755,12 @@ html {
 .image-slider-section-07 {
   position: relative;
   width: 22%;
-  height: 300px;
+  height: 200px;
   margin: 40px auto;
   overflow: hidden;
   border-radius: 13px;
   left: 11.5%;
-  bottom: 139.9rem;
+  bottom: 104.3rem;
 }
 
 .slides-07 {
@@ -760,7 +786,7 @@ html {
 
 .navigation-07 {
   position: absolute;
-  bottom: 135px;
+  bottom: 85px;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -769,33 +795,35 @@ html {
 
 .prev-btn-07,
 .next-btn-07 {
-  font-size: 12px;
+  font-size: 10px;
   cursor: pointer;
   background-color: white;
   color: black;
-  padding: 7px;
+  padding: 4px;
   border-radius: 50%;
 }
 
 .slide-text-07 {
   position: relative;
   color: black;
-  bottom: 2262px;
+  bottom: 1700px;
   display: block;
-  left: 686px;
+  left: 458px;
 }
 
 .slide-text-07 h5 {
-  font-size: medium;
+  font-size: 10px;
+  font-weight: 100;
 }
 
 .slide-text-07 p {
+  font-size: 12px;
   padding: 2px;
   color: rgb(100, 97, 97);
 }
 
 .slide-text-07 span {
-  font-size: larger;
+  font-size: 12px;
   color: black;
   padding: 2px;
 }
@@ -804,12 +832,12 @@ html {
 .image-slider-section-08 {
   position: relative;
   width: 22%;
-  height: 300px;
+  height: 200px;
   margin: 40px auto;
   overflow: hidden;
   border-radius: 13px;
   left: 35.5%;
-  bottom: 167.5rem;
+  bottom: 124.4rem;
 }
 
 .slides-08 {
@@ -835,7 +863,7 @@ html {
 
 .navigation-08 {
   position: absolute;
-  bottom: 135px;
+  bottom: 85px;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -844,33 +872,35 @@ html {
 
 .prev-btn-08,
 .next-btn-08 {
-  font-size: 12px;
+  font-size: 10px;
   cursor: pointer;
   background-color: white;
   color: black;
-  padding: 7px;
+  padding: 4px;
   border-radius: 50%;
 }
 
 .slide-text-08 {
   position: relative;
   color: black;
-  bottom: 2703px;
+  bottom: 2025px;
   display: block;
-  left: 1010px;
+  left: 674px;
 }
 
 .slide-text-08 h5 {
-  font-size: medium;
+  font-size: 12px;
+  font-weight: 100;
 }
 
 .slide-text-08 p {
   padding: 2px;
   color: gray;
+  font-size: 12px;
 }
 
 .slide-text-08 span {
-  font-size: larger;
+  font-size: 12px;
   color: gray;
   padding: 2px;
 }
@@ -880,12 +910,12 @@ html {
 .image-slider-section-09 {
   position: relative;
   width: 22%;
-  height: 300px;
+  height: 200px;
   margin: 40px auto;
   overflow: hidden;
   border-radius: 13px;
   right: 36.5%;
-  bottom: 84.5rem;
+  bottom: 43.4rem;
 }
 
 .image-slider-09 {
@@ -911,17 +941,17 @@ html {
 
 .navigation-09 {
   position: absolute;
-  bottom: 135px;
+  bottom: 85px;
   display: flex;
 }
 
 .prev-btn-09,
 .next-btn-09 {
-  font-size: 14px;
+  font-size: 10px;
   cursor: pointer;
   background-color: white;
   color: black;
-  padding: 7px;
+  padding: 4px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -936,28 +966,30 @@ html {
 
 .next-btn-09 {
   position: relative;
-  left: 15rem;
+  left: 9.7rem;
 }
 
 .slide-text-09 {
   position: relative;
   color: black;
-  bottom: 1377px;
+  bottom: 727px;
   display: block;
-  left: 39px;
+  left: 28px;
 }
 
 .slide-text-09 h5 {
-  font-size: medium;
+  font-size: 9px;
+  font-weight: 100;
 }
 
 .slide-text-09 p {
   padding: 2px;
   color: rgb(94, 91, 91);
+  font-size: 10px;
 }
 
 .slide-text-09 span {
-  font-size: larger;
+  font-size: 10px;
   color: black;
   padding: 2px;
 }
@@ -967,12 +999,12 @@ html {
 .image-slider-section-10 {
   position: relative;
   width: 22%;
-  height: 300px;
+  height: 200px;
   margin: 40px auto;
   overflow: hidden;
   border-radius: 13px;
   right: 12.5%;
-  bottom: 112.1rem;
+  bottom: 63.03rem;
 }
 
 .image-slider-10 {
@@ -998,17 +1030,17 @@ html {
 
 .navigation-10 {
   position: absolute;
-  bottom: 135px;
+  bottom: 85px;
   display: flex;
 }
 
 .prev-btn-10,
 .next-btn-10 {
-  font-size: 14px;
+  font-size: 10px;
   cursor: pointer;
   background-color: white;
   color: black;
-  padding: 7px;
+  padding: 4px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -1023,28 +1055,30 @@ html {
 
 .next-btn-10 {
   position: relative;
-  left: 15rem;
+  left: 9.7rem;
 }
 
 .slide-text-10 {
   position: relative;
   color: black;
-  bottom: 1819px;
+  bottom: 1042px;
   display: block;
-  left: 363px;
+  left: 240px;
 }
 
 .slide-text-10 h5 {
-  font-size: medium;
+  font-size: 9px;
+  font-weight: 100;
 }
 
 .slide-text-10 p {
   padding: 2px;
   color: rgb(109, 104, 104);
+  font-size: 10px;
 }
 
 .slide-text-10 span {
-  font-size: larger;
+  font-size: 10px;
   color: black;
   padding: 2px;
 }
@@ -1054,12 +1088,12 @@ html {
 .image-slider-section-11 {
   position: relative;
   width: 22%;
-  height: 300px;
+  height: 200px;
   margin: 40px auto;
   overflow: hidden;
   border-radius: 13px;
   left: 11.5%;
-  bottom: 139.9rem;
+  bottom: 82.72rem;
 }
 
 .image-slider-11 {
@@ -1088,7 +1122,7 @@ html {
 
 .navigation-11 {
   position: absolute;
-  bottom: 135px;
+  bottom: 85px;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -1097,33 +1131,35 @@ html {
 
 .prev-btn-11,
 .next-btn-11 {
-  font-size: 12px;
+  font-size: 10px;
   cursor: pointer;
   background-color: white;
   color: black;
-  padding: 7px;
+  padding: 4px;
   border-radius: 50%;
 }
 
 .slide-text-11 {
   position: relative;
   color: black;
-  bottom: 2262px;
+  bottom: 1357px;
   display: block;
-  left: 686px;
+  left: 458px;
 }
 
 .slide-text-11 h5 {
-  font-size: medium;
+  font-size: 9px;
+  font-weight: 100;
 }
 
 .slide-text-11 p {
   padding: 2px;
   color: rgb(100, 97, 97);
+  font-size: 10px;
 }
 
 .slide-text-11 span {
-  font-size: larger;
+  font-size: 10px;
   color: black;
   padding: 2px;
 }
@@ -1132,12 +1168,12 @@ html {
 .image-slider-section-12 {
   position: relative;
   width: 22%;
-  height: 300px;
+  height: 200px;
   margin: 40px auto;
   overflow: hidden;
   border-radius: 13px;
   left: 35.5%;
-  bottom: 167.5rem;
+  bottom: 102.5rem;
 }
 
 .slides-12 {
@@ -1163,7 +1199,7 @@ html {
 
 .navigation-12 {
   position: absolute;
-  bottom: 135px;
+  bottom: 85px;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -1172,33 +1208,35 @@ html {
 
 .prev-btn-12,
 .next-btn-12 {
-  font-size: 12px;
+  font-size: 10px;
   cursor: pointer;
   background-color: white;
   color: black;
-  padding: 7px;
+  padding: 4px;
   border-radius: 50%;
 }
 
 .slide-text-12 {
   position: relative;
   color: black;
-  bottom: 2703px;
+  bottom: 1673px;
   display: block;
-  left: 1010px;
+  left: 675px;
 }
 
 .slide-text-12 h5 {
-  font-size: medium;
+  font-size: 10px;
+  font-weight: 100;
 }
 
 .slide-text-12 p {
   padding: 2px;
   color: gray;
+  font-size: 12px;
 }
 
 .slide-text-12 span {
-  font-size: larger;
+  font-size: 12px;
   color: gray;
   padding: 2px;
 }
@@ -1215,12 +1253,12 @@ html {
 .image-slider-section-13 {
   position: relative;
   width: 22%;
-  height: 300px;
+  height: 200px;
   margin: 40px auto;
   overflow: hidden;
   border-radius: 13px;
   right: 36.5%;
-  bottom: 84.5rem;
+  bottom: 21.5rem;
 }
 
 .image-slider-13 {
@@ -1246,17 +1284,17 @@ html {
 
 .navigation-13 {
   position: absolute;
-  bottom: 135px;
+  bottom: 85px;
   display: flex;
 }
 
 .prev-btn-13,
 .next-btn-13 {
-  font-size: 14px;
+  font-size: 10px;
   cursor: pointer;
   background-color: white;
   color: black;
-  padding: 7px;
+  padding: 4px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -1271,28 +1309,30 @@ html {
 
 .next-btn-13 {
   position: relative;
-  left: 15rem;
+  left: 9.7rem;
 }
 
 .slide-text-13 {
   position: relative;
   color: black;
-  bottom: 1377px;
+  bottom: 379px;
   display: block;
-  left: 39px;
+  left: 26px;
 }
 
 .slide-text-13 h5 {
-  font-size: medium;
+  font-size: 10px;
+  font-weight: 100;
 }
 
 .slide-text-13 p {
   padding: 2px;
   color: rgb(94, 91, 91);
+  font-size: 10px;
 }
 
 .slide-text-13 span {
-  font-size: larger;
+  font-size: 10px;
   color: black;
   padding: 2px;
 }
@@ -1302,12 +1342,12 @@ html {
 .image-slider-section-14 {
   position: relative;
   width: 22%;
-  height: 300px;
+  height: 200px;
   margin: 40px auto;
   overflow: hidden;
   border-radius: 13px;
   right: 12.5%;
-  bottom: 112.1rem;
+  bottom: 41.3rem;
 }
 
 .image-slider-14 {
@@ -1333,17 +1373,17 @@ html {
 
 .navigation-14 {
   position: absolute;
-  bottom: 135px;
+  bottom: 85px;
   display: flex;
 }
 
 .prev-btn-14,
 .next-btn-14 {
-  font-size: 14px;
+  font-size: 10px;
   cursor: pointer;
   background-color: white;
   color: black;
-  padding: 7px;
+  padding: 4px;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -1358,28 +1398,30 @@ html {
 
 .next-btn-14 {
   position: relative;
-  left: 15rem;
+  left: 9.7rem;
 }
 
 .slide-text-14 {
   position: relative;
   color: black;
-  bottom: 1819px;
+  bottom: 695px;
   display: block;
-  left: 363px;
+  left: 240px;
 }
 
 .slide-text-14 h5 {
-  font-size: medium;
+  font-size: 9px;
+  font-weight: 100;
 }
 
 .slide-text-14 p {
   padding: 2px;
   color: rgb(109, 104, 104);
+  font-size: 10px;
 }
 
 .slide-text-14 span {
-  font-size: larger;
+  font-size: 9px;
   color: black;
   padding: 2px;
 }
@@ -1389,12 +1431,12 @@ html {
 .image-slider-section-15 {
   position: relative;
   width: 22%;
-  height: 300px;
+  height: 200px;
   margin: 40px auto;
   overflow: hidden;
   border-radius: 13px;
   left: 11.5%;
-  bottom: 139.9rem;
+  bottom: 61rem;
 }
 
 .slides-15 {
@@ -1420,7 +1462,7 @@ html {
 
 .navigation-15 {
   position: absolute;
-  bottom: 135px;
+  bottom: 85px;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -1429,33 +1471,35 @@ html {
 
 .prev-btn-15,
 .next-btn-15 {
-  font-size: 12px;
+  font-size: 10px;
   cursor: pointer;
   background-color: white;
   color: black;
-  padding: 7px;
+  padding: 4px;
   border-radius: 50%;
 }
 
 .slide-text-15 {
   position: relative;
   color: black;
-  bottom: 2262px;
+  bottom: 1009px;
   display: block;
-  left: 686px;
+  left: 460px;
 }
 
 .slide-text-15 h5 {
-  font-size: medium;
+  font-size: 9px;
+  font-weight: 100;
 }
 
 .slide-text-15 p {
   padding: 2px;
   color: rgb(100, 97, 97);
+  font-size: 10px;
 }
 
 .slide-text-15 span {
-  font-size: larger;
+  font-size: 10px;
   color: black;
   padding: 2px;
 }
@@ -1464,12 +1508,12 @@ html {
 .image-slider-section-16 {
   position: relative;
   width: 22%;
-  height: 300px;
+  height: 200px;
   margin: 40px auto;
   overflow: hidden;
   border-radius: 13px;
   left: 35.5%;
-  bottom: 167.5rem;
+  bottom: 80.75rem;
 }
 
 .slides-16 {
@@ -1495,7 +1539,7 @@ html {
 
 .navigation-16 {
   position: absolute;
-  bottom: 135px;
+  bottom: 85px;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -1504,33 +1548,35 @@ html {
 
 .prev-btn-16,
 .next-btn-16 {
-  font-size: 12px;
+  font-size: 10px;
   cursor: pointer;
   background-color: white;
   color: black;
-  padding: 7px;
+  padding: 4px;
   border-radius: 50%;
 }
 
 .slide-text-16 {
   position: relative;
   color: black;
-  bottom: 2703px;
+  bottom: 1325px;
   display: block;
-  left: 1010px;
+  left: 675px;
 }
 
 .slide-text-16 h5 {
-  font-size: medium;
+  font-size: 10px;
+  font-weight: 100;
 }
 
 .slide-text-16 p {
   padding: 2px;
   color: gray;
+  font-size: 10px;
 }
 
 .slide-text-16 span {
-  font-size: larger;
+  font-size: 10px;
   color: gray;
   padding: 2px;
 }
@@ -1545,7 +1591,7 @@ html {
 .footer {
   position: relative;
   max-width: 100%;
-  bottom: 336rem;
+  bottom: 252rem;
   padding: 45px 0 44px 44px;
   border-top: 1px solid lightgray;
   background-color: rgba(211, 211, 211, 0.329);
@@ -1558,8 +1604,9 @@ html {
 }
 
 .footer-cols p {
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.6rem;
   color: black;
+  font-size: 14px;
 }
 
 .footer .footer-cols {
@@ -1571,11 +1618,12 @@ html {
 .footer li {
   line-height: 2;
   list-style: none;
+  font-size: 10px;
 }
 
 .main-footer {
   position: relative;
-  bottom: 336rem;
+  bottom: 252rem;
   border: 1px solid lightgray;
   padding: 26px;
   color: black;
@@ -1588,53 +1636,33 @@ html {
   color: rgba(0, 0, 0, 0.705);
   text-decoration: none;
   list-style: 3px decimal lightgray;
+  font-size: 12px;
 }
 
 .last-right {
   position: relative;
   right: 52px;
+  font-size: 12px;
 }
 
 .last-right span a {
-  font-size: 1rem;
+  font-size: 0.8rem;
   color: black;
 }
 
 .last-right a {
-  font-size: 1.3rem;
+  font-size: 1rem;
   color: black;
 }
-
-/* Add this to prevent layout disturbance */
-.image-slider-section-09,
-.image-slider-section-10,
-.image-slider-section-11,
-.image-slider-section-12 {
+.fa-square-instagram {
   position: relative;
-  width: 22%;
-  height: 300px;
-  margin: 40px auto;
-  overflow: hidden;
-  border-radius: 13px;
+  left: 39px;
 }
-
-/* Adjust bottom values to original */
-.image-slider-section-09 {
-  bottom: 84.5rem;
+.fa-square-twitter {
+  position: relative;
+  left: 30px;
 }
-
-.image-slider-section-10 {
-  bottom: 112.1rem;
-}
-
-.image-slider-section-11 {
-  bottom: 139.9rem;
-}
-
-.image-slider-section-12 {
-  bottom: 167.5rem;
-}
-
-.main-9-12 {
-  bottom: 85rem;
+.fa-square-facebook {
+  position: relative;
+  left: 20px;
 }

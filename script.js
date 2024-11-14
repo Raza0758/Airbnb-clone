@@ -421,15 +421,3 @@ prevBtn16.addEventListener("click", () => {
   currentIndex16 = (currentIndex16 - 1 + slides16.length) % slides16.length;
   slides16[currentIndex16].classList.add("active-16");
 });
-
-// here
-
-window.addEventListener("load", function () {
-  const body = document.body;
-  const html = document.documentElement;
-
-  if (body.scrollHeight <= window.innerHeight) {
-    body.style.height = "100%";
-    html.style.height = "100%";
-  }
-});
