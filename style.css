@@ -64,6 +64,9 @@ html {
   background-color: rgba(211, 211, 211, 0.411);
   border-radius: 22px;
 }
+.airbnb-text {
+  display: hidden;
+}
 
 .box4 {
   display: flex;
@@ -80,7 +83,7 @@ html {
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Search area */
+/* search area */
 .container2 {
   display: flex;
   justify-content: space-between;
@@ -106,6 +109,9 @@ html {
   transition: background-color ease;
   padding: 0 10px;
   font-size: 12px;
+}
+.resContainer2 {
+  display: none;
 }
 
 #area01 h5 {
@@ -175,7 +181,7 @@ html {
   border: 1px solid rgba(211, 211, 211, 0.445);
 }
 
-/* Icon section */
+/* icon section */
 .icon-container {
   display: flex;
   gap: 23px;
@@ -241,12 +247,12 @@ html {
   float: right;
 }
 
-/* Images sections*/
+/* images sections*/
 /*  */
 /*  */
 /*  */
 
-/* Image Section 1 */
+/* image section 1 */
 
 .image-slider-section-01 {
   position: relative;
@@ -334,7 +340,7 @@ html {
   padding: 2px;
 }
 
-/* Image Section 2 */
+/* image section 2 */
 
 .image-slider-section-02 {
   position: relative;
@@ -410,11 +416,11 @@ html {
 
 .slide-text-02 span {
   font-size: 12px;
-  color: black;
+  color: gray;
   padding: 2px;
 }
 
-/* Image Section 3 */
+/* image section 3 */
 
 .image-slider-section-03 {
   position: relative;
@@ -491,7 +497,7 @@ html {
   padding: 2px;
 }
 
-/* Image Section 4 */
+/* image section 4 */
 .image-slider-section-04 {
   position: relative;
   width: 22%;
@@ -576,7 +582,7 @@ html {
   font-size: 12px;
 }
 
-/* Image Section 5 */
+/* Image section 5 */
 
 .image-slider-section-05 {
   position: relative;
@@ -665,7 +671,7 @@ html {
   padding: 2px;
 }
 
-/* Image Section 6 */
+/* Image section 6 */
 
 .image-slider-section-06 {
   position: relative;
@@ -750,7 +756,7 @@ html {
   padding: 2px;
 }
 
-/* Image Section 7 */
+/* Image section 7 */
 
 .image-slider-section-07 {
   position: relative;
@@ -828,7 +834,7 @@ html {
   padding: 2px;
 }
 
-/* Image Section 8 */
+/* image section 8 */
 .image-slider-section-08 {
   position: relative;
   width: 22%;
@@ -905,7 +911,7 @@ html {
   padding: 2px;
 }
 
-/* Image Section 9 */
+/* image section 9 */
 
 .image-slider-section-09 {
   position: relative;
@@ -994,7 +1000,7 @@ html {
   padding: 2px;
 }
 
-/* Image Section 10 */
+/* Image section 10 */
 
 .image-slider-section-10 {
   position: relative;
@@ -1083,7 +1089,7 @@ html {
   padding: 2px;
 }
 
-/* Image Section 11 */
+/* Image section 11 */
 
 .image-slider-section-11 {
   position: relative;
@@ -1164,7 +1170,7 @@ html {
   padding: 2px;
 }
 
-/* Image Section 12 */
+/* Image section 12 */
 .image-slider-section-12 {
   position: relative;
   width: 22%;
@@ -1246,7 +1252,7 @@ html {
   bottom: 85rem;
 }
 
-/* Image Section 13 */
+/* Image section 13 */
 /*  */
 /*  */
 
@@ -1337,7 +1343,7 @@ html {
   padding: 2px;
 }
 
-/* Image Section 14 */
+/* image section 14 */
 
 .image-slider-section-14 {
   position: relative;
@@ -1426,7 +1432,7 @@ html {
   padding: 2px;
 }
 
-/* Image Section 15 */
+/* image section 15 */
 
 .image-slider-section-15 {
   position: relative;
@@ -1504,7 +1510,7 @@ html {
   padding: 2px;
 }
 
-/* Image Section 16 */
+/* image section 16 */
 .image-slider-section-16 {
   position: relative;
   width: 22%;
@@ -1586,7 +1592,7 @@ html {
   bottom: 170rem;
 }
 
-/* Footer  */
+/* footer  */
 
 .footer {
   position: relative;
@@ -1636,7 +1642,16 @@ html {
   color: rgba(0, 0, 0, 0.705);
   text-decoration: none;
   list-style: 3px decimal lightgray;
-  font-size: 12px;
+  font-size: 10px;
+  display: inline-block;
+}
+
+.inc {
+  color: rgba(0, 0, 0, 0.705);
+  text-decoration: none;
+  list-style: 3px decimal lightgray;
+  font-size: 10px;
+  display: inline-block;
 }
 
 .last-right {
@@ -1665,4 +1680,8 @@ html {
 .fa-square-facebook {
   position: relative;
   left: 20px;
+}
+.divider2,
+.divider3 {
+  display: none;
 }

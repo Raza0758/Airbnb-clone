@@ -1,0 +1,738 @@
+@media only screen and (min-width: 769px) and (max-width: 1020px) {
+  .box1 img {
+    width: 85px;
+    padding: 1px 5px;
+  }
+  #list1,
+  #list2 {
+    position: relative;
+    top: 60px;
+    font-size: 22px;
+    right: 45px;
+  }
+  .box3,
+  .box4 {
+    position: relative;
+    right: 6.5rem;
+  }
+  .box3 h4 {
+    position: relative;
+    font-size: 15px;
+    color: #333;
+    width: 150px;
+  }
+  .container2 {
+    position: relative;
+    top: 73px;
+    width: 80%;
+    left: 75px;
+    height: 16vh;
+  }
+
+  #area01 h5 {
+    position: relative;
+    right: 20px;
+    font-size: 15px;
+  }
+  #area01 p {
+    font-size: 12px;
+    font-weight: 300;
+  }
+  #area02 p,
+  #area03 p {
+    font-size: 15px;
+  }
+  #area02 h5,
+  #area03 h5 {
+    font-size: 15px;
+  }
+
+  #area04 h5 {
+    position: relative;
+    right: 55px;
+    font-size: 15px;
+  }
+
+  #area04 p {
+    position: relative;
+    right: 38px;
+    color: rgb(150, 147, 147);
+    font-size: 15px;
+  }
+
+  .main01 {
+    position: relative;
+    top: 95px;
+  }
+  .divider {
+    position: relative;
+    top: 96px;
+  }
+  .resmain2 {
+    position: relative;
+    top: 18px;
+  }
+
+  .icon-box img {
+    height: 22px;
+    width: 24px;
+    margin-bottom: 5px;
+    object-fit: cover;
+  }
+
+  .icon-box p {
+    font-size: 12px;
+    color: rgb(128, 128, 128);
+    white-space: nowrap;
+  }
+  .nav-arrows {
+    position: absolute;
+    top: 1%;
+    right: 1px;
+    padding: 0 20px;
+    width: 98%;
+    overflow: hidden;
+  }
+
+  /* images section */
+
+  .image-slider-section-01 {
+    position: relative;
+    width: 44.5%;
+    height: 333px;
+    right: 222px;
+    bottom: 26px;
+  }
+
+  .navigation-01 {
+    position: absolute;
+    bottom: 155px;
+    display: flex;
+  }
+  .prev-btn-01 {
+    position: relative;
+    left: 1rem;
+    padding: 8px;
+  }
+
+  .next-btn-01 {
+    position: relative;
+    left: 21rem;
+    padding: 8px;
+  }
+
+  .slide-text-01 {
+    position: relative;
+    bottom: 58px;
+    left: 35px;
+  }
+  .slide-text-01 h5 {
+    font-size: 18px;
+  }
+  .slide-text-01 p {
+    font-size: 15px;
+  }
+  .slide-text-01 span {
+    font-size: 15px;
+  }
+
+  .image-slider-section-02 {
+    position: relative;
+    width: 45%;
+    height: 333px;
+    left: 23.5%;
+    bottom: 31rem;
+  }
+
+  .navigation-02 {
+    position: absolute;
+    bottom: 155px;
+    display: flex;
+  }
+  .prev-btn-02 {
+    position: relative;
+    padding: 8px;
+  }
+
+  .next-btn-02 {
+    position: relative;
+    padding: 8px;
+  }
+
+  .slide-text-02 {
+    position: relative;
+    bottom: 33.1rem;
+    left: 470px;
+  }
+  .slide-text-02 h5 {
+    font-size: 16px;
+  }
+  .slide-text-02 p {
+    font-size: 15px;
+  }
+  .slide-text-02 span {
+    font-size: 15px;
+  }
+
+  .image-slider-section-03 {
+    position: relative;
+    width: 44.5%;
+    height: 333px;
+    left: -14rem;
+    bottom: 33rem;
+  }
+
+  .navigation-03 {
+    position: absolute;
+    bottom: 155px;
+    display: flex;
+  }
+  .prev-btn-03 {
+    position: relative;
+    padding: 8px;
+  }
+
+  .next-btn-03 {
+    position: relative;
+    padding: 8px;
+  }
+
+  .slide-text-03 {
+    position: relative;
+    bottom: 559px;
+    left: 35px;
+  }
+  .slide-text-03 h5 {
+    font-size: 16px;
+  }
+  .slide-text-03 p {
+    font-size: 15px;
+  }
+  .slide-text-03 span {
+    font-size: 15px;
+  }
+  .image-slider-section-04 {
+    position: relative;
+    width: 45%;
+    height: 333px;
+    left: 23.5%;
+    bottom: 62.2rem;
+  }
+
+  .navigation-04 {
+    position: absolute;
+    bottom: 155px;
+    display: flex;
+  }
+  .prev-btn-04 {
+    position: relative;
+    padding: 8px;
+  }
+
+  .next-btn-04 {
+    position: relative;
+    padding: 8px;
+  }
+
+  .slide-text-04 {
+    position: relative;
+    left: 472px;
+  }
+  .slide-text-04 h5 {
+    font-size: 16px;
+  }
+  .slide-text-04 p {
+    font-size: 15px;
+  }
+  .slide-text-04 span {
+    font-size: 15px;
+  }
+  .experience {
+    position: relative;
+    bottom: 912px;
+  }
+
+  .image-slider-section-05 {
+    position: relative;
+    width: 44.5%;
+    height: 333px;
+    right: 25%;
+    bottom: 57.5rem;
+  }
+
+  .navigation-05 {
+    position: absolute;
+    bottom: 155px;
+    display: flex;
+  }
+  .prev-btn-05 {
+    position: relative;
+    left: 0.8rem;
+    padding: 8px;
+  }
+
+  .next-btn-05 {
+    position: relative;
+    left: 21.6rem;
+    padding: 8px;
+  }
+
+  .slide-text-05 {
+    position: relative;
+    bottom: 950px;
+    left: 35px;
+  }
+  .slide-text-05 h5 {
+    font-size: 18px;
+  }
+  .slide-text-05 p {
+    font-size: 15px;
+  }
+  .slide-text-05 span {
+    font-size: 15px;
+  }
+
+  .image-slider-section-06 {
+    position: relative;
+    width: 45.5%;
+    height: 333px;
+    left: 211px;
+    bottom: 86.85rem;
+  }
+
+  .navigation-06 {
+    position: absolute;
+    bottom: 155px;
+    display: flex;
+  }
+  .prev-btn-06 {
+    position: relative;
+    left: 0.8rem;
+    padding: 8px;
+  }
+
+  .next-btn-06 {
+    position: relative;
+    left: 22rem;
+    padding: 8px;
+  }
+
+  .slide-text-06 {
+    position: relative;
+    bottom: 1420px;
+    left: 467px;
+  }
+  .slide-text-06 h5 {
+    font-size: 18px;
+  }
+  .slide-text-06 p {
+    font-size: 15px;
+  }
+  .slide-text-06 span {
+    font-size: 15px;
+  }
+
+  .image-slider-section-07 {
+    position: relative;
+    width: 44.4%;
+    height: 333px;
+    left: -24.75%;
+    bottom: 89.5rem;
+  }
+
+  .navigation-07 {
+    position: absolute;
+    bottom: 155px;
+    display: flex;
+  }
+  .prev-btn-07 {
+    position: relative;
+    left: 0.8rem;
+    padding: 8px;
+  }
+
+  .next-btn-07 {
+    padding: 8px;
+  }
+
+  .slide-text-07 {
+    position: relative;
+    bottom: 1465px;
+    left: 35px;
+  }
+  .slide-text-07 h5 {
+    font-size: 18px;
+  }
+  .slide-text-07 p {
+    font-size: 14px;
+  }
+  .slide-text-07 span {
+    font-size: 16px;
+  }
+
+  .image-slider-section-08 {
+    position: relative;
+    width: 45%;
+    height: 333px;
+    left: 23.5%;
+    bottom: 119rem;
+  }
+  .navigation-08 {
+    position: absolute;
+    bottom: 155px;
+    display: flex;
+  }
+  .prev-btn-08 {
+    position: relative;
+    left: 0.8rem;
+    padding: 8px;
+  }
+
+  .next-btn-08 {
+    padding: 8px;
+  }
+
+  .slide-text-08 {
+    position: relative;
+    bottom: 1935px;
+    left: 470px;
+  }
+  .slide-text-08 h5 {
+    font-size: 18px;
+  }
+  .slide-text-08 p {
+    font-size: 15px;
+  }
+  .slide-text-08 span {
+    font-size: 15px;
+  }
+
+  .image-slider-section-09 {
+    position: relative;
+    width: 44%;
+    height: 333px;
+    right: 24.8%;
+    bottom: 37rem;
+  }
+
+  .navigation-09 {
+    position: absolute;
+    bottom: 165px;
+    display: flex;
+  }
+  .prev-btn-09 {
+    position: relative;
+    left: 0.8rem;
+    padding: 8px;
+  }
+
+  .next-btn-09 {
+    position: relative;
+    left: 21.6rem;
+    padding: 8px;
+  }
+
+  .slide-text-09 {
+    position: relative;
+    bottom: 622px;
+    left: 38px;
+  }
+  .slide-text-09 h5 {
+    font-size: 15px;
+  }
+  .slide-text-09 p {
+    font-size: 14px;
+  }
+  .slide-text-09 span {
+    font-size: 14px;
+  }
+
+  .image-slider-section-10 {
+    position: relative;
+    width: 45%;
+    height: 333px;
+    left: 217px;
+    bottom: 66rem;
+  }
+  .navigation-10 {
+    position: absolute;
+    bottom: 155px;
+    display: flex;
+  }
+  .prev-btn-10 {
+    position: relative;
+    left: 0.8rem;
+    padding: 8px;
+  }
+
+  .next-btn-10 {
+    position: relative;
+    left: 21.5rem;
+    padding: 8px;
+  }
+
+  .slide-text-10 {
+    position: relative;
+    bottom: 1090px;
+    left: 477px;
+  }
+  .slide-text-10 h5 {
+    font-size: 16px;
+  }
+  .slide-text-10 p {
+    font-size: 14px;
+  }
+  .slide-text-10 span {
+    font-size: 14px;
+  }
+
+  .image-slider-section-11 {
+    position: relative;
+    width: 44%;
+    height: 333px;
+    left: -24.5%;
+    bottom: 69rem;
+  }
+
+  .navigation-11 {
+    position: absolute;
+    bottom: 159px;
+    display: flex;
+  }
+  .prev-btn-11 {
+    position: relative;
+    left: 0.8rem;
+    padding: 8px;
+  }
+
+  .next-btn-11 {
+    padding: 8px;
+  }
+
+  .slide-text-11 {
+    position: relative;
+    bottom: 1135px;
+    left: 40px;
+  }
+  .slide-text-11 h5 {
+    font-size: 15px;
+  }
+  .slide-text-11 p {
+    font-size: 14px;
+  }
+  .slide-text-11 span {
+    font-size: 14px;
+  }
+  .image-slider-section-12 {
+    position: relative;
+    width: 45%;
+    height: 333px;
+    left: 24%;
+    bottom: 98.03rem;
+  }
+  .slide-text-12 {
+    position: relative;
+    color: black;
+    bottom: 1598px;
+    left: 473px;
+  }
+  .navigation-12 {
+    position: absolute;
+    bottom: 155px;
+    display: flex;
+  }
+  .prev-btn-12 {
+    position: relative;
+    left: 0.8rem;
+    padding: 8px;
+  }
+
+  .next-btn-12 {
+    padding: 8px;
+  }
+
+  .slide-text-12 h5 {
+    font-size: 16px;
+  }
+  .slide-text-12 p {
+    font-size: 14px;
+  }
+  .slide-text-12 span {
+    font-size: 14px;
+  }
+
+  .image-slider-section-13 {
+    position: relative;
+    width: 44%;
+    height: 333px;
+    right: 24.7%;
+    bottom: 16rem;
+  }
+
+  .slide-text-13 {
+    position: relative;
+    bottom: 287px;
+    left: 37px;
+  }
+
+  .navigation-13 {
+    position: absolute;
+    bottom: 155px;
+    display: flex;
+  }
+  .prev-btn-13 {
+    position: relative;
+    left: 0.8rem;
+    padding: 8px;
+  }
+
+  .next-btn-13 {
+    position: relative;
+    left: 21rem;
+    padding: 8px;
+  }
+
+  .slide-text-13 h5 {
+    font-size: 15px;
+  }
+  .slide-text-13 p {
+    font-size: 14px;
+  }
+  .slide-text-13 span {
+    font-size: 14px;
+  }
+
+  .image-slider-section-14 {
+    position: relative;
+    width: 45.3%;
+    height: 333px;
+    left: 23.5%;
+    bottom: 45rem;
+  }
+
+  .slide-text-14 {
+    position: relative;
+    bottom: 751px;
+    left: 468px;
+  }
+  .navigation-14 {
+    position: absolute;
+    bottom: 155px;
+    display: flex;
+  }
+  .prev-btn-14 {
+    position: relative;
+    left: 1rem;
+    padding: 8px;
+  }
+
+  .next-btn-14 {
+    position: relative;
+    left: 21.57rem;
+    padding: 8px;
+  }
+
+  .slide-text-14 h5 {
+    font-size: 16px;
+  }
+  .slide-text-14 p {
+    font-size: 14px;
+  }
+  .slide-text-14 span {
+    font-size: 14px;
+  }
+
+  .image-slider-section-15 {
+    position: relative;
+    width: 44%;
+    height: 333px;
+    left: -25%;
+    bottom: 47.9rem;
+  }
+
+  .slide-text-15 {
+    position: relative;
+    bottom: 799px;
+    left: 37px;
+  }
+
+  .navigation-15 {
+    position: absolute;
+    bottom: 155px;
+    display: flex;
+  }
+  .prev-btn-15 {
+    position: relative;
+    left: 0.8rem;
+    padding: 8px;
+  }
+
+  .next-btn-15 {
+    padding: 8px;
+  }
+
+  .slide-text-15 h5 {
+    font-size: 15px;
+  }
+  .slide-text-15 p {
+    font-size: 14px;
+  }
+  .slide-text-15 span {
+    font-size: 14px;
+  }
+  .image-slider-section-16 {
+    position: relative;
+    width: 45%;
+    height: 333px;
+    left: 23.4%;
+    bottom: 76.96rem;
+  }
+
+  .slide-text-16 {
+    position: relative;
+    bottom: 1266px;
+    left: 468px;
+  }
+  .navigation-16 {
+    position: absolute;
+    bottom: 155px;
+    display: flex;
+  }
+  .prev-btn-16 {
+    position: relative;
+    left: 0.8rem;
+    padding: 8px;
+  }
+
+  .next-btn-16 {
+    padding: 8px;
+  }
+
+  .slide-text-16 h5 {
+    font-size: 16px;
+  }
+  .slide-text-16 p {
+    font-size: 14px;
+  }
+  .slide-text-16 span {
+    font-size: 14px;
+  }
+  .footer {
+    position: relative;
+    bottom: 247rem;
+  }
+  .footer p {
+    font-size: 22px;
+  }
+  .footer li {
+    font-size: 15px;
+  }
+  .main-footer {
+    position: relative;
+    bottom: 247rem;
+    font-size: 16px;
+  }
+  .last-left a {
+    font-size: 13px;
+  }
+}
